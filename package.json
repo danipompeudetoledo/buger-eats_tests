@@ -1,0 +1,15 @@
+{
+  "name": "venturus-training",
+  "version": "1.0.0",
+  "description": "Criando primeiro  projeto cypress",
+  "main": "npx cypress open ",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Danilo Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
