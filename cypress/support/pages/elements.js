@@ -14,7 +14,7 @@ exports.el ={
     attachFile:'input[accept^="image"]',
     submitButton:'button[type="submit"]',
     modalAlert:'.swal2-container .swal2-html-container',
-    alertError:'.alert-error'
+    alertError:('.alert-error')
 
 
 }

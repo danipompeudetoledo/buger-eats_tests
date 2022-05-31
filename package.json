@@ -4,12 +4,15 @@
   "description": "Criando primeiro  projeto cypress",
   "main": "npx cypress open ",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "cypress: run": "npx cypress run" 
   },
   "author": "Danilo Dias",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^9.7.0",
-    "cypress-file-upload": "^5.0.8"
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
   }
 }

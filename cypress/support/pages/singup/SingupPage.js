@@ -44,6 +44,7 @@ class SingupPage {
 
     alertErrorShouldBe(expectedMessage){
         cy.get(el.alertError).should('have.text', expectedMessage)
+        cy.contains('el.alertError', 'expectedMessage').should('be.visible');
     }
 
 }
